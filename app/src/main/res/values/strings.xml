@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StepView</string>
+
+    <!--Button-->
+    <string name="next_step">Next Step</string>
+    <string name="previous_step">Previous Step</string>
+
+    <!--Step Name-->
+    <string name="step_first">First</string>
+    <string name="step_second">Second</string>
+    <string name="step_third">Third</string>
+    <string name="step_fourth">Fourth</string>
+
+
+</resources>

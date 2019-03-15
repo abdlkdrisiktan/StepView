@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <abdulkadir.stepview.ui.StepView
+        android:id="@+id/step_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:paddingEnd="@dimen/spacing_normal"
+        android:paddingStart="@dimen/spacing_normal"
+        android:paddingTop="@dimen/spacing_normal"
+        app:sv_animationType="All"
+        app:sv_doneCircleRadius="13dp"
+        app:sv_doneStepMarkColor="@color/colorPrimaryDark"
+        app:sv_doneTextColor="@color/color_black"
+        app:sv_nextStepLineColor="@color/color_white"
+        app:sv_nextTextColor="@color/color_white"
+        app:sv_selectedCircleRadius="@dimen/spacing_normal"
+        app:sv_selectedTextColor="@color/color_white"
+        app:sv_stepLineWidth="2dp"
+        app:sv_stepNumberTextSize="16sp"
+        app:sv_stepPadding="12dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_medium"
+        >
+        <Button
+            android:id="@+id/button_previous"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/previous_step"
+            />
+        <Button
+            android:id="@+id/button_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/next_step"
+            />
+    </LinearLayout>
+
+</LinearLayout>
